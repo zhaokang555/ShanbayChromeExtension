@@ -14,7 +14,6 @@ document.body.onmouseup = function () {
 
 
 function searchWord(word) {
-
     var request = new XMLHttpRequest();
     var url = 'https://api.shanbay.com/bdc/search/?word=' + word;
     
