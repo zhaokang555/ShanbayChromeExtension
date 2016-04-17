@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ShanbayChromeExtension",
     "version": "1.0",
-    "description": "选中查词",
+    "description": "正文过滤，分页，选中查词",
     "content_scripts": [
         {
             "matches": [
