@@ -5,7 +5,7 @@
     "description": "正文过滤，分页，选中查词",
     "browser_action": {
         "default_popup": "popup.html"
-    }
+    },
     "content_scripts": [
         {
             "matches": [
