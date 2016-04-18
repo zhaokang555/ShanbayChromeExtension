@@ -14,5 +14,8 @@
                 "js/content.js"
             ]
         }
+    ],
+    "permissions": [
+        "https://api.shanbay.com/*"
     ]
 }
