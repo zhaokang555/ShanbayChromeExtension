@@ -3,7 +3,7 @@
     "name": "ShanbayChromeExtension",
     "version": "1.0",
     "description": "翻译选中的单词. Translate selected word",
-    
+
     "content_scripts": [
         {
             "matches": [
