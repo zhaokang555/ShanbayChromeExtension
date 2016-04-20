@@ -18,5 +18,8 @@
     ],
     "permissions": [
         "https://api.shanbay.com/*"
+    ],
+    "web_accessible_resources": [
+        "img/horn24.png"
     ]
 }

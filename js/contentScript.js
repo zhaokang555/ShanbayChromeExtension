@@ -1,5 +1,6 @@
 function createPopupAndAudio() {
     var popup = document.createElement('div');
+
     popup.id = 'popup';
     popup.style.display = 'none';
     popup.style.position = 'fixed';
@@ -11,10 +12,11 @@ function createPopupAndAudio() {
     popup.style.overflow = 'auto';
     popup.style.backgroundColor = 'rgb(32,142,113)';
 
-    popup.innerHTML = '英式发音<button id="ukBtn" style="width: 24px; height: 24px"></button>'
-        + '美式发音<button id="usBtn" style="width: 24px; height: 24px"></button>'
+    popup.innerHTML = '英式发音'
+        + '<button id="ukBtn" type="button" style="background-image: url(../img/horn24.png)"></button>'
+        + '美式发音'
+        + '<button id="usBtn" type="button" style="background-image: url(../img/horn24.png)"></button>'
         + '<p id="p"></p>';
-
 
     popup.onclick = function (e) {
         e.stopPropagation();
@@ -35,6 +37,7 @@ function createPopupAndAudio() {
     };
 
     document.body.appendChild(popup);
+
 
     var d = document.createElement('div');
     d.innerHTML = '<audio id="uk"></audio><audio id="us"></audio>';
