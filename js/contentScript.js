@@ -13,9 +13,9 @@ function createPopupAndAudio() {
     popup.style.backgroundColor = 'rgb(32,142,113)';
 
     popup.innerHTML = '英式发音'
-        + '<button id="ukBtn" type="button" style="background-image: url(../img/horn24.png)"></button>'
+        + '<button id="ukBtn" type="button" style="background-image: url(../img/horn24.png); width: 24px; height: 24px"></button>'
         + '美式发音'
-        + '<button id="usBtn" type="button" style="background-image: url(../img/horn24.png)"></button>'
+        + '<button id="usBtn" type="button" style="background-image: url(../img/horn24.png); width: 24px; height: 24px"></button>'
         + '<p id="p"></p>';
 
     popup.onclick = function (e) {
