@@ -61,10 +61,11 @@ function createPopupAndAudio() {
     popup.style.overflow = 'auto';
     popup.style.backgroundColor = 'rgb(32,142,113)';
 
+    var imgUrl = chrome.extension.getURL('img/horn24.png');
     popup.innerHTML = '英式发音'
-        + '<button id="ukBtn" type="button" style="background-image: url(../img/horn24.png); width: 24px; height: 24px"></button>'
+        + '<button id="ukBtn" type="button" style="background: url(' + imgUrl + ') rgb(32,142,113); width: 24px; height: 24px"></button>'
         + '美式发音'
-        + '<button id="usBtn" type="button" style="background-image: url(../img/horn24.png); width: 24px; height: 24px"></button>'
+        + '<button id="usBtn" type="button" style="background: url(' + imgUrl + ') rgb(32,142,113); width: 24px; height: 24px"></button>'
         + '<p id="p"></p>';
 
     popup.onclick = function (e) {
